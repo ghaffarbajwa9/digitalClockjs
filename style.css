@@ -1,6 +1,7 @@
 body{
     margin: 0;
     display: flex;
+    font-family: sans-serif;
     flex-direction: column;
     align-items: center;
     height: 100vh;
@@ -20,7 +21,6 @@ h2{
 }
 .clock{
     display: flex;
-    flex-direction: row;
 }
 .clock div{
     margin: 5px;
@@ -29,8 +29,8 @@ h2{
     width: 100px;
     height: 80px;
     background-color: slateblue;
-    color: white;
     opacity: .8;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,12 +45,11 @@ h2{
     background: darkblue;
     opacity: .8;
 }
-.clock #ampm{
-    bottom: 38.11vh;
-    position: absolute;
+.clock #ampm{ 
     width: 60px;
-    height: 30px;
+    height: 30px;  
+    background: rgba(47, 141, 3, 0.788);
     font-size: 20px;
-    background: darkblue;
-    opacity: .8;
+  
+ 
 }
